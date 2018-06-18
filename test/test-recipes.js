@@ -5,7 +5,7 @@ const {app, runServer, closeServer} = require('../server');
 
 const expect = chai.expect;
 
-app.use(chaiHttp);
+chai.use(chaiHttp);
 
 describe('recipes', function(){
 
